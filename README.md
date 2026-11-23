@@ -12,13 +12,5 @@
 
 ```text
 Name:       [ dhg0x ]
-Role:       [ Security Researcher ]
 Focus:      [ Reverse Engineering · Online Games ]
-Approach:   [ Authorized Research · Responsible Disclosure ]
 ```
-
-I study how game clients, networks, and services interact. My focus is understanding multiplayer systems and sharing security research responsibly.
-
-### Connect
-
-[GitHub · @dhg0x](https://github.com/dhg0x)
