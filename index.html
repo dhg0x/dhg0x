@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0d0f">
+    <meta
+      name="description"
+      content="dhg0x — pesquisa de segurança e engenharia reversa com foco em jogos online, integridade e divulgação responsável."
+    >
+    <title>dhg0x — Segurança de jogos online</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="header-inner">
+          <a class="brand" href="#inicio" aria-label="dhg0x — início">
+            <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true">
+              <path d="M5 5h26v26H5z" fill="none" stroke="currentColor" stroke-width="1.5"></path>
+              <path d="M11 12h5v12h-5zm9 0h5v12h-5z" fill="currentColor"></path>
+              <path d="M16 17h4" stroke="#0a0d0f" stroke-width="1.5"></path>
+            </svg>
+            <span class="brand-name">dhg0x<span>.</span></span>
+          </a>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="navegacao"
+          >
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="site-nav" id="navegacao" aria-label="Navegação principal">
+            <a href="#pesquisa">Pesquisa</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#abordagem">Abordagem</a>
+            <a class="nav-contact" href="#contato">
+              Contato
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M3 13 13 3M5 3h8v8" fill="none" stroke="currentColor" stroke-width="1.5"></path>
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="conteudo">
+        <section class="hero section-wrap" id="inicio">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow hero-eyebrow">
+              <span class="live-dot" aria-hidden="true"></span>
+              PESQUISA INDEPENDENTE <span class="eyebrow-divider">/</span> GAME SECURITY
+            </p>
+            <h1>Segurança por<br><span>trás do jogo.</span></h1>
+            <p class="hero-description">
+              Sou <strong>dhg0x</strong>, pesquisador de segurança e engenharia reversa com foco em
+              jogos online. Investigo como clientes, protocolos e serviços se relacionam — sempre
+              com escopo autorizado e responsabilidade.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#pesquisa">
+                Conheça minha pesquisa
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="M4 10h11m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"></path>
+                </svg>
+              </a>
+              <a class="text-link" href="#sobre">Sobre mim <span aria-hidden="true">↘</span></a>
+            </div>
+            <div class="hero-note">
+              <span class="hero-note-line" aria-hidden="true"></span>
+              <span>Pesquisa autorizada. Divulgação responsável.</span>
+            </div>
+          </div>
+
+          <div class="hero-visual" data-reveal style="--reveal-delay: 140ms">
+            <div class="visual-glow" aria-hidden="true"></div>
+            <div class="orbit orbit-one" aria-hidden="true"></div>
+            <div class="orbit orbit-two" aria-hidden="true"></div>
+            <div class="diagram-card">
+              <div class="diagram-topbar">
+                <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+                <span class="diagram-title">LAB / MODEL_01</span>
+                <span class="diagram-status"><i aria-hidden="true"></i> EM ANÁLISE</span>
+              </div>
+              <div class="diagram-content">
+                <div class="diagram-label">
+                  <span>MAPA DE PESQUISA</span>
+                  <span>01 — 03</span>
+                </div>
+                <div class="system-flow" aria-label="Cliente, rede e serviço">
+                  <div class="flow-node">
+                    <span class="flow-icon client-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24">
+                        <rect x="4" y="4" width="16" height="12" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"></rect>
+                        <path d="M9 20h6m-3-4v4" fill="none" stroke="currentColor" stroke-width="1.4"></path>
+                      </svg>
+                    </span>
+                    <strong>CLIENTE</strong>
+                    <small>integridade</small>
+                  </div>
+                  <span class="flow-connector" aria-hidden="true"><i></i></span>
+                  <div class="flow-node flow-node-focus">
+                    <span class="flow-icon network-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="2.4" fill="none" stroke="currentColor" stroke-width="1.4"></circle>
+                        <circle cx="5" cy="6" r="1.7" fill="none" stroke="currentColor" stroke-width="1.4"></circle>
+                        <circle cx="19" cy="6" r="1.7" fill="none" stroke="currentColor" stroke-width="1.4"></circle>
+                        <circle cx="5" cy="18" r="1.7" fill="none" stroke="currentColor" stroke-width="1.4"></circle>
+                        <circle cx="19" cy="18" r="1.7" fill="none" stroke="currentColor" stroke-width="1.4"></circle>
+                        <path d="m6.5 7.3 4 3.4m7-3.4-4 3.4m-7 6.1 4-3.3m7 3.3-4-3.3" fill="none" stroke="currentColor" stroke-width="1.2"></path>
+                      </svg>
+                    </span>
+                    <strong>REDE</strong>
+                    <small>protocolo</small>
+                  </div>
+                  <span class="flow-connector" aria-hidden="true"><i></i></span>
+                  <div class="flow-node">
+                    <span class="flow-icon service-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24">
+                        <rect x="5" y="4" width="14" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"></rect>
+                        <rect x="5" y="14" width="14" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"></rect>
+                        <path d="M8 7h.01M8 17h.01" stroke="currentColor" stroke-width="2"></path>
+                      </svg>
+                    </span>
+                    <strong>SERVIÇO</strong>
+                    <small>validação</small>
+                  </div>
+                </div>
+
+                <div class="diagram-rule"></div>
+                <div class="trace-row">
+                  <span class="trace-key">ESCOPO</span>
+                  <span class="trace-value"><i aria-hidden="true">✓</i> autorizado</span>
+                </div>
+                <div class="trace-row">
+                  <span class="trace-key">PRINCÍPIO</span>
+                  <span class="trace-value">minimizar impacto</span>
+                </div>
+                <div class="trace-row">
+                  <span class="trace-key">OBJETIVO</span>
+                  <span class="trace-value">mais integridade</span>
+                </div>
+              </div>
+              <div class="diagram-footer">
+                <span class="footer-pulse" aria-hidden="true"></span>
+                ANÁLISE <span class="footer-slash">/</span> CONTEXTO <span class="footer-slash">/</span> IMPACTO
+              </div>
+            </div>
+            <span class="visual-index" aria-hidden="true">FIG. 001 <span>—</span> SISTEMA MULTIPLAYER</span>
+          </div>
+        </section>
+
+        <section class="research-section section-wrap" id="pesquisa">
+          <div class="section-heading" data-reveal>
+            <div>
+              <p class="eyebrow"><span class="section-number">01</span> / PESQUISA</p>
+              <h2>Segurança começa<br><span>com entendimento.</span></h2>
+            </div>
+            <p class="section-intro">
+              Minha pesquisa olha para o espaço entre software, rede e sistemas de jogo — com foco
+              em compreender riscos e contribuir para experiências multiplayer mais resilientes.
+            </p>
+          </div>
+
+          <div class="research-grid">
+            <article class="research-card" data-reveal>
+              <div class="card-topline"><span>01</span><span class="card-symbol" aria-hidden="true">⌘</span></div>
+              <h3>Engenharia<br>reversa</h3>
+              <p>
+                Compreender componentes e comportamentos de software em ambientes de pesquisa
+                autorizados, documentando observações de forma reproduzível.
+              </p>
+              <span class="card-tag">ANÁLISE DE SOFTWARE</span>
+            </article>
+            <article class="research-card" data-reveal style="--reveal-delay: 90ms">
+              <div class="card-topline"><span>02</span><span class="card-symbol" aria-hidden="true">⌁</span></div>
+              <h3>Integridade<br>do cliente</h3>
+              <p>
+                Estudar limites de confiança entre cliente e servidor, validação de estado e
+                mecanismos que ajudam a proteger partidas online.
+              </p>
+              <span class="card-tag">SEGURANÇA DE JOGOS</span>
+            </article>
+            <article class="research-card" data-reveal style="--reveal-delay: 180ms">
+              <div class="card-topline"><span>03</span><span class="card-symbol" aria-hidden="true">⤳</span></div>
+              <h3>Protocolos<br>&amp; sistemas</h3>
+              <p>
+                Analisar fluxos de comunicação e modelos de ameaça para identificar oportunidades
+                de defesa sem colocar jogadores ou serviços em risco.
+              </p>
+              <span class="card-tag">ARQUITETURA MULTIPLAYER</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="about-section section-wrap" id="sobre">
+          <div class="about-layout">
+            <div class="about-heading" data-reveal>
+              <p class="eyebrow"><span class="section-number">02</span> / SOBRE</p>
+              <h2>Curiosidade técnica,<br><span>responsabilidade real.</span></h2>
+            </div>
+            <div class="about-copy" data-reveal style="--reveal-delay: 100ms">
+              <p class="about-lede">
+                Sou <strong>dhg0x</strong>. Gosto de entender como sistemas multiplayer funcionam,
+                onde estão seus limites de confiança e como comunicar riscos de forma útil.
+              </p>
+              <p>
+                Segurança em jogos exige equilíbrio: investigar com rigor, respeitar as regras do
+                escopo e tratar cada descoberta com cuidado. Meu objetivo é transformar curiosidade
+                técnica em conhecimento que ajude a fortalecer sistemas.
+              </p>
+              <div class="principles" aria-label="Princípios de pesquisa">
+                <div class="principle-row">
+                  <span>01</span><span>Autorização antes da análise</span><span aria-hidden="true">↗</span>
+                </div>
+                <div class="principle-row">
+                  <span>02</span><span>Impacto mínimo durante os testes</span><span aria-hidden="true">↗</span>
+                </div>
+                <div class="principle-row">
+                  <span>03</span><span>Divulgação responsável de resultados</span><span aria-hidden="true">↗</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="approach-section section-wrap" id="abordagem">
+          <div class="approach-heading" data-reveal>
+            <p class="eyebrow"><span class="section-number">03</span> / ABORDAGEM</p>
+            <h2>Pesquisa com método.<br><span>Resultados com cuidado.</span></h2>
+          </div>
+          <div class="approach-steps">
+            <article class="approach-step" data-reveal>
+              <span class="step-index">01</span>
+              <div>
+                <h3>Definir o escopo</h3>
+                <p>Confirmar autorização, limites, ambiente e critérios de interrupção antes de qualquer análise.</p>
+              </div>
+            </article>
+            <article class="approach-step" data-reveal style="--reveal-delay: 90ms">
+              <span class="step-index">02</span>
+              <div>
+                <h3>Analisar com cuidado</h3>
+                <p>Trabalhar em condições controladas, registrar evidências e evitar impacto em jogadores e serviços.</p>
+              </div>
+            </article>
+            <article class="approach-step" data-reveal style="--reveal-delay: 180ms">
+              <span class="step-index">03</span>
+              <div>
+                <h3>Comunicar para fortalecer</h3>
+                <p>Documentar achados com clareza e coordenar a divulgação com as pessoas responsáveis.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="publications-section section-wrap" id="publicacoes">
+          <div class="publications-copy" data-reveal>
+            <p class="eyebrow"><span class="section-number">04</span> / CADERNO TÉCNICO</p>
+            <h2>Conhecimento aberto,<br><span>com contexto.</span></h2>
+            <p>
+              Estudos públicos serão compartilhados aqui quando puderem ser divulgados com
+              segurança e responsabilidade.
+            </p>
+          </div>
+          <div class="publication-card" data-reveal style="--reveal-delay: 120ms">
+            <span class="publication-mark" aria-hidden="true">↗</span>
+            <span class="publication-label">PUBLICAÇÕES</span>
+            <h3>Nenhum estudo público listado ainda.</h3>
+            <p>
+              Este espaço será atualizado com notas e análises que possam ser compartilhadas sem
+              expor jogadores, serviços ou detalhes sensíveis.
+            </p>
+            <a href="https://github.com/dhg0x" target="_blank" rel="noopener noreferrer">
+              Acompanhe no GitHub
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M3 13 13 3M5 3h8v8" fill="none" stroke="currentColor" stroke-width="1.5"></path>
+              </svg>
+            </a>
+          </div>
+        </section>
+
+        <section class="contact-section section-wrap" id="contato">
+          <div class="contact-panel" data-reveal>
+            <div class="contact-grid" aria-hidden="true"></div>
+            <p class="eyebrow"><span class="live-dot"></span> CONTATO</p>
+            <h2>Vamos conversar<br><span>sobre segurança?</span></h2>
+            <p>
+              Para pesquisa autorizada, divulgação responsável ou uma conversa sobre segurança em
+              jogos online, encontre-me no GitHub.
+            </p>
+            <a class="button button-primary" href="https://github.com/dhg0x" target="_blank" rel="noopener noreferrer">
+              Abrir perfil no GitHub
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M4 10h11m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"></path>
+              </svg>
+            </a>
+            <span class="contact-index" aria-hidden="true">DHG0X / 2026</span>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer section-wrap">
+        <a class="footer-brand" href="#inicio">dhg0x<span>.</span></a>
+        <p>Pesquisa independente <span aria-hidden="true">·</span> feita com responsabilidade.</p>
+        <a class="back-to-top" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+        <span class="footer-year">© <span id="ano">2026</span></span>
+      </footer>
+    </div>
+  </body>
+</html>
