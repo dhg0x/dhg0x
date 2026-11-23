@@ -1,15 +1,24 @@
-# dhg0x — Portfólio
+<div align="center">
+  <h1>About Me</h1>
+  <p><strong>UNDERSTAND THE SYSTEM. RESPECT THE GAME.</strong></p>
+  <p>
+    <code>GAME SECURITY</code> ·
+    <code>REVERSE ENGINEERING</code> ·
+    <code>ONLINE GAMES</code>
+  </p>
+</div>
 
-Site estático em português para apresentar pesquisa de segurança e engenharia reversa em jogos online.
+---
 
-## Abrir localmente
-
-Abra `index.html` no navegador ou inicie um servidor local:
-
-```sh
-python3 -m http.server 8000
+```text
+Name:       [ dhg0x ]
+Role:       [ Security Researcher ]
+Focus:      [ Reverse Engineering · Online Games ]
+Approach:   [ Authorized Research · Responsible Disclosure ]
 ```
 
-Depois, acesse `http://localhost:8000`.
+I study how game clients, networks, and services interact. My focus is understanding multiplayer systems and sharing security research responsibly.
 
-O projeto não depende de frameworks, fontes externas ou pacotes. Edite `index.html` para atualizar o conteúdo e `styles.css` para personalizar o visual.
+### Connect
+
+[GitHub · @dhg0x](https://github.com/dhg0x)
