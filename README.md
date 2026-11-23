@@ -8,5 +8,5 @@
 
 ```text
 Name:       [ dhg0x ]
-Focus:      [ Reverse Engineering · Online Games ]
+Focus:      [ Reverse Engineering · researcher security]
 ```
