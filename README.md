@@ -7,6 +7,5 @@
 ---
 
 ```text
-Name:       [ dhg0x ]
-Focus:      [ Reverse Engineering · researcher security]
+[ Reverse Engineering · researcher security]
 ```
